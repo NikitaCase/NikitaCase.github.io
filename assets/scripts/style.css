@@ -1,0 +1,126 @@
+body {
+    color: black;
+    width: 900px;
+    align-content: center;
+    font-size: 22px;
+}
+
+
+/* headers */
+
+h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 2px grey;
+    font-size: 60px
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    font-size: 55px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* text elements */
+
+p {
+    text-align: justify;
+    display: block;
+    direction: ltr;
+    color: black;
+    font-size: 22px;
+}
+
+
+/* tables */
+
+table {
+    border: solid 1px grey;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+}
+
+td {
+    border: solid 1px grey;
+}
+
+
+/* pics */
+
+figure {
+    align: center;
+}
+
+img {
+    display: block;
+    box-shadow: 5px 5px #13010159;
+    border-radius: 10px;
+}
+
+
+/* lists */
+
+ul {
+    border: rebeccapurple;
+    border-style: solid 1px grey;
+}
+
+
+/* section */
+
+section {
+    background-color: #ffffff;
+}
+
+
+/* div boxes */
+
+div.card {
+    width: 300px box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+/* links */
+
+a:link {
+    color: black;
+    font-size: 22px;
+    font-style: normal;
+}
+
+a:visited {
+    color: black;
+    font-size: 22px;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+    font-size: 28;
+}
+
+a:active {
+    color: blue;
+    font-size: 22px;
+}
+
+
+/* classes */
+
+.dotforclass {
+    font-style: normal;
+}
