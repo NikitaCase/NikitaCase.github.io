@@ -31,11 +31,15 @@ h3 {
 /* text elements */
 
 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
     display: block;
     direction: ltr;
     color: black;
     font-size: 22px;
+    margin-left: auto;
+    margin-right: auto; 
+
 }
 
 
@@ -79,20 +83,37 @@ ul {
 }
 
 
-/* section */
+/* div + sections boxes */
+div{
+    align-items: center;
+    justify-content: center;
+}
 
 section {
-    background-color: #ffffff;
+    border-style: none;
+    max-width: 900px;
+    min-width: 700px; 
+    margin: auto; /* outside area*/
+    padding: 20px; 
+    
 }
-
-
-/* div boxes */
 
 div.card {
-    width: 300px box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.76);
+    background-image: linear-gradient(to bottom right, #d3208b, #fda000);
+    opacity: 0.5;
     text-align: center;
+    border-radius: 12px;
 }
 
+.round-border{
+    border-style: solid;
+    border-width: 2px 4px 4px 2px; /* top r bot l */ 
+    border-radius: 7px; 
+    padding: 25px;
+}
 
 /* links */
 
