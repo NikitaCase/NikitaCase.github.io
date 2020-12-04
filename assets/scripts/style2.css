@@ -1,0 +1,78 @@
+/*  This has additional style for bootstrap pages */
+
+
+/* headers */
+
+h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 2px grey;
+    font-size: 60px
+}
+
+h2 {
+    color: black;
+    text-align: right;
+    font-size: 55px;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    font-size: 50px;
+}
+
+
+/* text elements */
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    display: block;
+    direction: ltr;
+    color: black;
+    font-size: 22px;
+}
+
+p.light {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    display: block;
+    direction: ltr;
+    color: #f2c4ce;
+    font-size: 22px;
+}
+
+img {
+    display: block;
+    box-shadow: 5px 5px #13010159;
+    border-radius: 10px;
+}
+
+
+/* links */
+
+a:link {
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2c4ce;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+a:active {
+    color: #f2c4ce;
+    font-size: 22px;
+    text-decoration: none;
+}
