@@ -1,0 +1,134 @@
+body {
+    height: 100%;
+    /* background: linear-gradient(to right top, #7d9596, #57a8aa); */
+    /* background: linear-gradient(to right top, #105e5d, #20b9b6); */
+    /* background: linear-gradient(to right top, #648683, #a4ddd8); */
+    background: linear-gradient(to right top, #c895b4, #8a94b5);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 80%;
+    max-width: 1080px;
+    min-width: 450px;
+    z-index: 2;
+}
+
+#top {
+    border-radius: 1rem 1em 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 
+    background-image: url("/assets/images/top.png");
+    background-color: #4abcad;
+    height: 500px;
+    
+    background-position: left;
+  
+    background-repeat: no-repeat;
+    
+    background-size: stretch; */
+}
+
+#about {
+    background: #4abcad;
+}
+
+#card-section {
+    background: white;
+}
+
+.white {
+    background-color: white;
+}
+
+#contact {
+    background-color: #a4ddd8;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: #f3b936;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #ed553b;
+    text-align: right;
+}
+
+h2.w {
+    color: white;
+}
+
+h2.b {
+    color: black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    color: #f3b936;
+}
+
+.row {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 28px;
+    color: #f3b936;
+    border-color: white white grey white;
+}
+
+#card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    flex: 0 1 300px;
+    padding: 1rem;
+    justify-content: space-between;
+    margin: 5px;
+    border-style: solid;
+    border-color: #cccccc grey grey #cccccc;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+hr.yo {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #f3b936, #ed553b);
+}
+
+hr.yellow {
+    border-top: 1px solid #f3b936;
+}
+
+.container {
+    width: 100%;
+    margin: 10px;
+    background: white;
+}
+
+.form {
+    padding: 20px;
+}
