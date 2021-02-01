@@ -1,0 +1,44 @@
+/* body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(18, 18, 237, 1) 35%, rgba(0, 212, 255, 1) 100%);
+} */
+
+body {
+    min-height: 100vh;
+    background: #43cbff;
+    background-image: linear-gradient(to bottom right, #43cbff, #9708cc);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    min-width: 400px;
+    border-radius: 2rem;
+    display: grid;
+}
+
+.dash {
+    background: grey;
+    grid-column: 1 / 2;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.content {
+    background: white;
+    grid-column: 2 / 5;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.pic {
+    align-content: center;
+    align-items: center;
+    place-items: center;
+}
