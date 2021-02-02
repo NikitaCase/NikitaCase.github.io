@@ -1,3 +1,8 @@
+/* This will be cleaned up soon  
+My code is usually not so messy
+It's not that I don't love bootstrap, 
+I would just love it more if I created it myself*/
+
 body {
     height: 100%;
     /* background: linear-gradient(to right top, #7d9596, #57a8aa); */
@@ -24,7 +29,6 @@ main {
     grid-template-columns: repeat(12, 1fr);
     /* grid-template-columns: repeat(auto-fill, minmax(4fr, 8fr)); */
 }
-
 
 /* 
 #top {
@@ -64,9 +68,9 @@ main {
     background-color: white;
 }
 
-#contact {
+/* #contact {
     background-color: #a4ddd8;
-}
+} */
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -119,7 +123,7 @@ h5 {
 }
 
 .card {
-    flex: 0 1 300px;
+    flex: 0 1 350px;
     padding: 1rem;
     justify-content: space-between;
     margin: 5px;
