@@ -132,7 +132,7 @@ h5 {
 hr.yo {
     border: 0;
     height: 1px;
-    background: #333;
+    background: #333333;
     background-image: linear-gradient(to right, #f3b936, #ed553b);
 }
 
@@ -164,7 +164,7 @@ hr.yellow {
 #navi li a:hover {
     font-family: "Montserat", sans-serif;
     text-decoration: none;
-    color: black;
+    color: #ed553b;
     font-size: 16px;
 }
 
@@ -196,4 +196,30 @@ hr.yellow {
 
 .blurb {
     grid-column: 5 / 13;
+}
+
+.logo{
+    height: 50px; 
+    width: 50px; 
+}
+
+
+a, a:visited {
+    font-family: "Montserat", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover {
+    font-family: "Montserat", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.large {
+    color: white; 
+}
+
+.grey {
+    background: #cccccc;
 }
