@@ -30,6 +30,7 @@ main {
     /* grid-template-columns: repeat(auto-fill, minmax(4fr, 8fr)); */
 }
 
+
 /* 
 #top {
     border-radius: 1rem 1em 0rem 0rem;
@@ -67,6 +68,7 @@ main {
 .white {
     background-color: white;
 }
+
 
 /* #contact {
     background-color: #a4ddd8;
@@ -126,7 +128,7 @@ h5 {
     flex: 0 1 300px;
     padding: 1rem;
     justify-content: space-between;
-    margin: 5px;
+    margin: 4px;
     border-style: solid;
     border-color: #cccccc grey grey #cccccc;
     border-width: 1px;
@@ -202,13 +204,13 @@ hr.yellow {
     grid-column: 5 / 13;
 }
 
-.logo{
-    height: 50px; 
-    width: 50px; 
+.logo {
+    height: 50px;
+    width: 50px;
 }
 
-
-a, a:visited {
+a,
+a:visited {
     font-family: "Montserat", sans-serif;
     text-decoration: none;
     font-size: 24px;
@@ -221,7 +223,7 @@ a:hover {
 }
 
 .large {
-    color: white; 
+    color: white;
 }
 
 .grey {
