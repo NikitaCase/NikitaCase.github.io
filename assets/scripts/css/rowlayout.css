@@ -3,9 +3,7 @@ body {
     /* background: linear-gradient(to right top, #7d9596, #57a8aa); */
     /* background: linear-gradient(to right top, #105e5d, #20b9b6); */
     /* background: linear-gradient(to right top, #648683, #a4ddd8); */
-    background: linear-gradient(to right top, #c895b4, #8a94b5);
-    display: flex;
-    justify-content: center;
+    background: linear-gradient(to right top, #000000, #ededed);
     z-index: 1;
     background-attachment: fixed;
     background-position: center;
@@ -14,18 +12,27 @@ body {
 }
 
 main {
+    width: 100%;
+}
+
+.container {
     width: 80%;
     max-width: 1080px;
     min-width: 450px;
-    z-index: 2;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(4fr, 8fr)); */
 }
 
+
+/* 
 #top {
     border-radius: 1rem 1em 0rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* 
+  
     background-image: url("/assets/images/top.png");
     background-color: #4abcad;
     height: 500px;
@@ -34,11 +41,19 @@ main {
   
     background-repeat: no-repeat;
     
-    background-size: stretch; */
-}
+    background-size: stretch;
+} */
 
 #about {
-    background: #4abcad;
+    background: #f3b936;
+}
+
+.divi {
+    background: #f3b936;
+}
+
+.about {
+    background: #ededed52;
 }
 
 #card-section {
@@ -74,7 +89,8 @@ h2.b {
     color: black;
 }
 
-p {
+p,
+ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -86,6 +102,7 @@ h5 {
 
 .row {
     padding: 20px;
+    grid-column: 1/13;
 }
 
 .card h3 {
@@ -123,12 +140,60 @@ hr.yellow {
     border-top: 1px solid #f3b936;
 }
 
-.container {
-    width: 100%;
-    margin: 10px;
-    background: white;
+#nav-bar {
+    display: flex;
+    align-content: right;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #cccccc;
 }
 
-.form {
-    padding: 20px;
+#navi {
+    list-style: none;
+    align-content: space-between;
+}
+
+#navi li a {
+    font-family: "Montserat", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#navi li a:hover {
+    font-family: "Montserat", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#navi li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.container {
+    padding-top: 0px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.pic {
+    align-content: center;
+    align-items: center;
+    place-items: center;
+    grid-column: 1 / 5;
+}
+
+.blurb {
+    grid-column: 5 / 13;
 }
